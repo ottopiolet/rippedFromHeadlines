@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Final Project</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <link rel="stylesheet" href='/node_modules/bulma/css/bulma.min.css'/>
+        <link rel="stylesheet" href='style.css' /> 
+    </head>
+
+    <body>
+       <main>
+            <div id='root'>
+                <header id='head' class='title'>Ripped from the Headlines</header>
+                <p class='subhead'>Can you fill in the missing word from these current headlines?</p>
+            </div>
+            <div id='board' class='board'></div>
+            <div id='answerBox' class='form'>   
+                <form>
+                    <input id='answer' list='keywords' name='keywords'></input>
+                    <datalist id='keywords'>
+
+                    </datalist>
+                    <button class='submit'>Submit</button>
+                    <button class='reset'>Reset</button>
+                    <button class='hint'>Hint</button>
+                    <button class='giveUp'>Give Up</button>
+                </form>
+            </div>
+            <div id='output'>
+                <div id='message'></div>
+                <div id='score'>Score: 0</div>
+                <div id='lives' class='columns'>
+                    <div id='life' class='column'>Lives:</div>
+                    <div id='life1' class='column'>
+                        <img class='life' src='check_mark.png'/>
+                    </div>
+                    <div id='life2' class='column'>
+                        <img class='life' src='check_mark.png'/>
+                    </div>
+                    <div id='life3' class='column'>
+                        <img class='life' src='check_mark.png   '/>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Include links to JavaScript files below -->
+        <script src='node_modules/jquery/dist/jquery.js'></script>
+        <script src='node_modules/axios/dist/axios.js'></script>
+        <script src='data.js'></script>
+        <script src='keywords.js'></script>
+        <script src="render.js" type="module"></script> 
+        
+    </body>
+</html>

@@ -1,0 +1,93 @@
+header#head{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size:80px;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+.subhead{
+    text-transform: uppercase;
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+
+}
+
+
+ #root {
+    margin: 2em 0;
+    text-align: center;
+  }
+  
+ 
+  
+
+  /**
+   * Page styles
+   */
+  body {
+    font-family: 'Droid Serif', serif;
+    color: #2f2f2f;
+    background-color: grey;
+  }
+  
+  body > main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1em 2em;
+    font-family: sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    box-sizing: border-box;
+    border: 5px solid #13294B;
+    border-radius: 10px;
+  }
+  
+  body a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  
+  #life {
+      font-size: xx-large;
+      padding-top: 80px;
+  }
+
+  .back-button {
+    float: right;
+    font-size: 1.1em;
+  }
+  .board {
+    
+    background-color: black;
+    padding: 10px;
+    font-size: x-large;
+    color:white;
+    font-family:monospace;
+  }
+
+  #answerBox {
+      align-self: center;
+      align-content: flex-start;
+  }
+  .columns {
+      align-content: space-around;
+  }
+  button {
+      font-family: monospace;
+  }
+
+    
+  #reset {
+    align-self: center;
+  }
+  
+  
+  
